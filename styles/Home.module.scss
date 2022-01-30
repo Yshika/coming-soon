@@ -1,0 +1,73 @@
+@import "./__colors.scss";
+
+.main {
+  height: 100vh;
+  display: flex;
+  .content {
+    display: grid;
+    width: 60%;
+    background-image: url("../public/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 9rem;
+    .logo {
+      align-self: center;
+    }
+    .text {
+      .heading {
+        color: $Desaturated_Red;
+        font-size: 5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin: 0;
+      }
+      .headingBlack {
+        color: $DarkGrayishRed;
+        font-size: 4rem;
+        font-weight: 600;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      .para {
+        color: $Desaturated_Red;
+        font-size: x-large;
+        font-weight: 400;
+        line-height: 1.8rem;
+      }
+      .inputBox {
+        display: flex;
+        .input {
+          border: $Desaturated_Red 1px solid;
+          border-radius: 25px;
+          width: 90%;
+          height: 3rem;
+          color: $Desaturated_Red;
+          padding: 0 20px;
+          &:focus-visible {
+            outline: none;
+            border-width: 3px;
+          }
+          &::placeholder {
+            color: $Desaturated_Red;
+            opacity: 50%;
+          }
+        }
+
+        .iconArrow {
+          background: $Gradient2;
+          position: relative;
+          height: 3rem;
+          width: 5rem;
+          left: -50px;
+          border: none;
+          border-radius: 25px;
+        }
+      }
+    }
+  }
+  .hero {
+    width: 40%;
+  }
+}
