@@ -16,7 +16,7 @@ export default function Home() {
             <img src="/logo.svg" alt="logo"></img>
           </div>
           <div className={styles.text}>
-            <p className={styles.heading}>We're</p>
+            <p className={styles.heading}>We&apos;re</p>
             <p className={styles.headingBlack}>coming</p>
             <p className={styles.headingBlack}>soon</p>
             <p className={styles.para}>
