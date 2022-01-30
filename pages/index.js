@@ -20,9 +20,9 @@ export default function Home() {
             <p className={styles.headingBlack}>coming</p>
             <p className={styles.headingBlack}>soon</p>
             <p className={styles.para}>
-              Hello fellow shoppers! We're currently building our new fashion
-              store. Add your email below to stay up-to-date with announcements
-              and our launch deals.
+              Hello fellow shoppers! We&apos;re currently building our new
+              fashion store. Add your email below to stay up-to-date with
+              announcements and our launch deals.
             </p>
             <div className={styles.inputBox}>
               <input
